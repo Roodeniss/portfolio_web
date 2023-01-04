@@ -86,12 +86,12 @@ nav ul li a:hover {
     .navBtn {
         display: unset;
     }
-
+    
     .desktop-nav {
         display: none;
     }
 
-    .hamburger .active {
+    .hamburger.active {
         display: block;
     }
 
@@ -103,6 +103,10 @@ nav ul li a:hover {
         width: 100%;
         text-align: center;
         transition: 0.2s;
+    }
+
+    .linkMenu{
+        margin: 16px 0;
     }
     
     .navBarMenu.active {
